@@ -16,7 +16,6 @@ const ForgotPassword = (props) => {
           setStatus(response.data.message);
         }
         else{
-console.log("success");
         }
       }); 
   };

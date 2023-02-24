@@ -20,7 +20,6 @@ const Login = () => {
         else{
           navigate('/dashboard')
         }
-        console.log(response.data);
       });
   };
   return (
