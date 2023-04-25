@@ -13,6 +13,8 @@ const AddNewPassword = () => {
       .post(`http://192.168.29.226:4001/user/user-resetpassword/${params.id}`,addPassword)
       .then((response) => {
         console.log(response);
+
+        
         navigate("/");
       });
       

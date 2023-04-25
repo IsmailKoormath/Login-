@@ -66,6 +66,7 @@ console.log(error);
               className="input-fild"
               type="password"
               placeholder=" Password"
+              autoComplete="new-password"
             />
             <input
               onChange={(e) =>

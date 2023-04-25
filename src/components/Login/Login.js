@@ -39,6 +39,7 @@ const Login = () => {
               className="input-fild"
               type="password"
               placeholder=" Password"
+              autoComplete="new-password"
             />
             <div>
               <a className="forgot" href="/forgot">

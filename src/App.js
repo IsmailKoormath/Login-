@@ -16,7 +16,6 @@ function App() {
           <Route path="/register" element={ <RegistrationPage />}></Route>
           <Route path="/forgot" element={<ForgotPassword />} ></Route>
           <Route path="/user/user-resetpassword/:id" element={<AddNewPassword />}></Route>
-          
         </Routes>
       </Router>
     </div>
